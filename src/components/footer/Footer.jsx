@@ -24,9 +24,18 @@ const Footer = () => {
             </a>
           </p>
           <span className="inline-flex gap-6 sm:ml-auto sm:mt-0 mt-4 justify-center sm:justify-start">
-            <FaInstagram fontSize={"40px"} />
-            <FaXTwitter fontSize={"40px"} />
-            <MdOutlineEmail fontSize={"40px"} />
+            <FaInstagram
+              className="hover:text-red-500 cursor-pointer"
+              fontSize={"40px"}
+            />
+            <FaXTwitter
+              className="hover:text-red-500 cursor-pointer"
+              fontSize={"40px"}
+            />
+            <MdOutlineEmail
+              className="hover:text-red-500 cursor-pointer"
+              fontSize={"40px"}
+            />
           </span>
         </div>
       </footer>

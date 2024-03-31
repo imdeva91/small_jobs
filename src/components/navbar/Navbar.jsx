@@ -6,7 +6,7 @@ const Navbar = () => {
   const [click, setClick] = useState(false);
   return (
     <>
-      <header className="shadow-xl w-full h-16">
+      <header className="shadow-xl bg-white w-full m-auto h-20 p-5 z-10 fixed ">
         <div className="max-w-[1200px] flex items-center md:justify-around justify-between px-10 relative">
           <div>Logo</div>
           <div className="md:flex list-none gap-16 items-center hidden">
@@ -37,7 +37,7 @@ const Navbar = () => {
         </div>
 
         {click ? (
-          <div className="h-1/2 rounded-b-xl	 w-full bg-red-600 z-30 absolute top-0 right-0">
+          <div className="h-[50vh] rounded-b-xl	 w-full bg-red-600 absolute top-0 -bottom-4 ">
             <div className="top-5 right-5 absolute">
               <RxCross2 fontSize={"40px"} onClick={() => setClick(false)} />
             </div>
