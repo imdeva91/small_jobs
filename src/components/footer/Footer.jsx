@@ -2,17 +2,20 @@ import React from "react";
 import { FaInstagram } from "react-icons/fa";
 import { FaXTwitter } from "react-icons/fa6";
 import { MdOutlineEmail } from "react-icons/md";
+import logo from "../../assets/logo.png";
 
 const Footer = () => {
   return (
     <div>
       <footer className="text-gray-600 body-font">
-        <div className="container px-5 py-8 mx-auto flex items-center sm:flex-row flex-col">
-          <a className="flex title-font font-medium items-center md:justify-start justify-center text-gray-900">
-            <h1>Logo</h1>
+        <div className="container px-5 py-8 mx-auto flex items-center sm:flex-row flex-col justify-center">
+          <a className="flex title-font font-medium items-center md:justify-start  text-gray-900">
+            <div className="sm:w-[80px] sm:h-[80px] h-14 w-14">
+              <img src={logo} alt="" />
+            </div>
             <span className="ml-3 text-xl">JobFinder</span>
           </a>
-          <p className="text-xl text-gray-500 sm:ml-4  sm:pl-4 sm:border-l-2 sm:border-gray-200 sm:py-2 sm:mt-0 mt-4">
+          <p className="text-xl text-center text-gray-500 sm:ml-4  sm:pl-4 sm:border-l-2 sm:border-gray-200 sm:py-2 sm:mt-0 mt-4">
             © 2024 jobFinder —
             <a
               href=""

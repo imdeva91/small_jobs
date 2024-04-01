@@ -3,8 +3,8 @@ import React from "react";
 const Contact = () => {
   return (
     <div>
-      <section className="text-gray-600 body-font relative -z-10">
-        <div className="container px-2 py-24 mx-auto flex sm:flex-nowrap flex-wrap ">
+      <section className="text-gray-600 body-font   relative -z-10">
+        <div className="container px-2 py-20 sm:py-40 md:py-32 flex sm:flex-nowrap flex-wrap ">
           <div className="lg:w-2/3 md:w-1/2 bg-gray-300 rounded-lg overflow-hidden sm:mr-10 p-10 flex items-end justify-start relative">
             <iframe
               width="100%"
