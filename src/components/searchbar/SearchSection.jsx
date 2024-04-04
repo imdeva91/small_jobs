@@ -10,13 +10,12 @@ const SearchSection = () => {
                     <form className='' action="search">
 
                         <div className=' flex justify-evenly'>
-                            <div>
+                            <div className='  p-0 m-0 '>
                                 <label htmlFor="job-title">Select job title</label>
                                 <input className=' border-solid border-2 border-sky-500 rounded-md ' type="search" id='search' name='search' />
-                                <input type="submit" value='submit' />
                             </div>
                             <div>
-                                <label htmlFor="job-title">Select job title</label>
+                                <label htmlFor="job-title">Select City</label>
                                 <input className=' border-solid border-2 border-sky-500 rounded-md ' type="search" id='search' name='search' />
                                 <input type="submit" value='submit' />
                             </div>
