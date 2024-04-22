@@ -12,6 +12,7 @@ import Layout from "./Layout.jsx";
 import About from "./pages/about/About.jsx";
 import Contact from "./pages/contact/Contact.jsx";
 import Home from "./pages/home/home.jsx";
+import WorkerSignIn from "./pages/signIn/WorkerSignIn.jsx"
 
 const router = createBrowserRouter(
   createRoutesFromElements(
@@ -19,6 +20,7 @@ const router = createBrowserRouter(
       <Route path="" element={<Home />} />
       <Route path="/about" element={<About />} />
       <Route path="/contact" element={<Contact />} />
+      <Route path="/signIn" element={<WorkerSignIn />} />
     </Route>
   )
 );

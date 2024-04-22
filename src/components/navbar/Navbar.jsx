@@ -32,7 +32,9 @@ const Navbar = () => {
               </button>
             </div>
             <div className="hover:bg-indigo-700 hover:text-white px-5 py-2 duration-700 rounded-lg ">
-              <button>Signin</button>
+              <button><Link to={"/signIn"} className="cursor-pointer">
+              Signin{" "}
+            </Link></button>
             </div>
             <div className="h-[50px] w-[50px] rounded-full bg-red-500 overflow-hidden">
               <img
@@ -76,7 +78,9 @@ const Navbar = () => {
                   </button>
                 </div>
                 <div className="hover:bg-indigo-700 hover:text-white px-5 py-2 duration-700 rounded-lg ">
-                  <button>Signin</button>
+                <button><Link to={"/signIn"} className="cursor-pointer">
+                Signin{" "}
+                </Link></button>
                 </div>
                 <div className="h-[70px] w-[70px] rounded-full bg-red-500 overflow-hidden">
                   <img
